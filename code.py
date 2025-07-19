@@ -1251,7 +1251,6 @@ async def main():
     await application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
-    import requests # Cần cho fetch_and_update_68gb
-    asyncio.run(main()) # Đây là cách gọi đúng
-
+    import requests # Đây là một dòng comment, không phải mã lệnh cần sửa
+    main() # <<< DÒNG NÀY CẦN ĐƯỢC THAY ĐỔI
 
