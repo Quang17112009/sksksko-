@@ -1252,5 +1252,6 @@ async def main():
 
 if __name__ == "__main__":
     import requests # Cần cho fetch_and_update_68gb
-    asyncio.run(main())
+    asyncio.run(main()) # Sửa thành dòng này
+
 
